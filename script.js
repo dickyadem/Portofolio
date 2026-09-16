@@ -48,3 +48,14 @@ if (window.matchMedia('(hover: hover)').matches) {
 }
 
 document.querySelector('#current-year').textContent = new Date().getFullYear();
+
+const payrollCard = [...document.querySelectorAll('.project-card')].find((card) => card.textContent.includes('Aplikasi Penggajian Karyawan'));
+const payrollActions = payrollCard?.querySelector('.project-payroll-actions');
+if (payrollActions && !payrollActions.querySelector('[data-payroll-documentation]')) {
+  const documentationLink = document.createElement('a');
+  documentationLink.className = 'text-link';
+  documentationLink.href = 'document/PenggajianReactjs.html';
+  documentationLink.dataset.payrollDocumentation = 'true';
+  documentationLink.innerHTML = 'Dokumentasi <span aria-hidden="true">↗</span>';
+  payrollActions.insertBefore(documentationLink, payrollActions.lastElementChild);
+}

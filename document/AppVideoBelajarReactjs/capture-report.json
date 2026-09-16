@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01-desktop-beranda",
+    "broken": []
+  },
+  {
+    "file": "02-desktop-katalog",
+    "broken": []
+  },
+  {
+    "file": "03-desktop-detail-kelas",
+    "broken": []
+  },
+  {
+    "file": "04-desktop-metode-pembayaran",
+    "broken": []
+  },
+  {
+    "file": "05-desktop-pesanan",
+    "broken": []
+  },
+  {
+    "file": "06-desktop-kelas-saya",
+    "broken": []
+  },
+  {
+    "file": "07-desktop-belajar",
+    "broken": []
+  },
+  {
+    "file": "08-desktop-sertifikat",
+    "broken": []
+  },
+  {
+    "file": "09-mobile-beranda",
+    "broken": []
+  },
+  {
+    "file": "10-mobile-katalog",
+    "broken": []
+  },
+  {
+    "file": "11-mobile-belajar",
+    "broken": []
+  },
+  {
+    "file": "12-mobile-pesanan",
+    "broken": []
+  }
+]
