@@ -2,6 +2,10 @@
 
 API payroll berbasis Node.js dan Express untuk mengelola data karyawan, komponen pendapatan, potongan, penggajian, serta laporan keuangan perusahaan. Proyek ini dirancang sebagai backend untuk sistem penggajian yang membutuhkan keamanan, role-based access, dan proses export laporan dalam format Excel.
 
+**Frontend demo:** [Aplikasi Penggajian ReactJS](https://dickyadem.github.io/AplikasiPenggajianReactJS/)
+
+**API production:** [api-payroll.vercel.app](https://api-payroll.vercel.app)
+
 ## Tentang Proyek
 
 Project ini merupakan solusi backend untuk aplikasi payroll yang mencakup:
